@@ -2,16 +2,16 @@
 
 ## Favorite frameworks
 
-* [middleclass](https://github.com/kikito/middleclass) : *OOP* - Adds object orientation programming helpers
-* [stateful](https://github.com/kikito/stateful.lua) : *States* - Adds states for objects
-* [inspect](https://github.com/kikito/inspect.lua) : *Debugging* - Formating fo console
-* [LÖVE](https://love2d.org/) : *2D Engine* - A simple 2D game engine
-	* [EditGrid](https://github.com/bakpakin/Editgrid) : *Debugging grid*	 
-	* [bump](https://github.com/kikito/bump.lua) : *Simple physics*
-	* [anim8](https://github.com/kikito/anim8) : *Sprite animations*
-	* [tween](https://github.com/kikito/tween.lua) : *Tweening functions*
-	* [gamera](https://github.com/kikito/gamera/blob/master/gamera.luas) : *Camera*
-	* [cargo](https://github.com/bjornbytes/cargo) : *Resource loader*
+* [middleclass](https://github.com/kikito/middleclass) : `#oop`
+* [stateful](https://github.com/kikito/stateful.lua) : `#oop`, `#state`
+* [inspect](https://github.com/kikito/inspect.lua) : `#debug`,`#format`
+* [LÖVE](https://love2d.org/) : `#2d`, `#game`
+	* [EditGrid](https://github.com/bakpakin/Editgrid) : `#2d`, `#debug`	 
+	* [bump](https://github.com/kikito/bump.lua) : `#2d`, `#physics`
+	* [anim8](https://github.com/kikito/anim8) : `#2d`, `#sprite`, `#animations`
+	* [tween](https://github.com/kikito/tween.lua) : `#tweening`, `#animations`
+	* [gamera](https://github.com/kikito/gamera/blob/master/gamera.luas) : `#2d`, `#camera`
+	* [cargo](https://github.com/bjornbytes/cargo) : `#resources`
 
 ## Code snippets
 

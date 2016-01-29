@@ -2,9 +2,9 @@
 
 ## Favorite frameworks
 
-* [MvvmLight](http://www.mvvmlight.net/doc) : *MVVM* - Base implementations for adopting the `Model-View-ViewModel` pattern
-* [Json.NET](http://www.newtonsoft.com/json) : *Json* - Serialization for JSON strings.
-* [Xamarin](https://xamarin.com/) : *Cross-Platform mobile development*
+* [MvvmLight](http://www.mvvmlight.net/doc) : `#mvvm`
+* [Json.NET](http://www.newtonsoft.com/json) : `#parser`, `#json`
+* [Xamarin](https://xamarin.com/) : `#crossplatform`, `#ios`, `#android`
 
 ## Code snippets
 
