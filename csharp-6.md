@@ -1,5 +1,11 @@
 # C#6
 
+## Favorite frameworks
+
+* [MvvmLight](http://www.mvvmlight.net/doc) : *MVVM* - Base implementations for adopting the `Model-View-ViewModel` pattern
+* [Json.NET](http://www.newtonsoft.com/json) : *Json* - Serialization for JSON strings.
+* [Xamarin](https://xamarin.com/) : *Cross-Platform mobile development*
+
 ## Code snippets
 
 ### Object declaration

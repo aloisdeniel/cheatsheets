@@ -1,5 +1,18 @@
 # Lua
 
+## Favorite frameworks
+
+* [middleclass](https://github.com/kikito/middleclass) : *OOP* - Adds object orientation programming helpers
+* [stateful](https://github.com/kikito/stateful.lua) : *States* - Adds states for objects
+* [inspect](https://github.com/kikito/inspect.lua) : *Debugging* - Formating fo console
+* [LÖVE](https://love2d.org/) : *2D Engine* - A simple 2D game engine
+	* [EditGrid](https://github.com/bakpakin/Editgrid) : *Debugging grid*	 
+	* [bump](https://github.com/kikito/bump.lua) : *Simple physics*
+	* [anim8](https://github.com/kikito/anim8) : *Sprite animations*
+	* [tween](https://github.com/kikito/tween.lua) : *Tweening functions*
+	* [gamera](https://github.com/kikito/gamera/blob/master/gamera.luas) : *Camera*
+	* [cargo](https://github.com/bjornbytes/cargo) : *Resource loader*
+
 ## Code snippets
 
 ### Object declaration
