@@ -20,6 +20,16 @@
 Tags : `#oop`, `#object`, `#class`
 
 ```lua
+-- Without middleclass
+local User = {}
+User.__index = User
+User.new = function(o,...) 
+  local instance = setmetatable({}, o) 
+  if instance.initialize then instance:initialize(...) end
+  return instance
+end
+
+-- With middleclass
 local class = require("middleclass")
 local User = class('User')
 
@@ -38,6 +48,10 @@ end
 Tags : `#oop`, `#object`, `#class`, `#subclass`
 
 ```lua
+-- Without middleclass (TBD)
+
+
+-- With middleclass
 local class = require("middleclass")
 local Parent = User
 local PoliteUser = class('PoliteUser',Parent)

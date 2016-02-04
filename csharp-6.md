@@ -58,3 +58,45 @@ Tags : `#oop`, `#object`, `#class`
 var user = new User("John");
 var n = user.Name;
 ```
+
+### Storage (WinRT)
+
+Tags : `#storage`, `#file`, `#folder`, `#winrt`
+
+```csharp
+-- Package folders
+var installationFolder = Package.Current.InstalledLocation;
+
+-- Local folders
+var localFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
+
+-- Libraries
+var picturesFolder = Windows.Storage.KnownFolders.PicturesLibrary;
+
+-- Download folder
+var f = await Windows.Storage.DownloadsFolder.CreateFileAsync("File", CreationCollisionOption.FailIfExists)
+
+-- Embedded file
+var assembly = this.GetType().GetTypeInfo().Assembly;
+var stream = assembly.GetManifestResourceStream("Namespace.Sub.File.txt");
+
+```
+
+### Read & write text in files (WinRT)
+
+Tags : `#storage`, `#file`, `#text`, `#folder`, `#write`, `#read`, `#winrt`
+
+```csharp
+var text = await Windows.Storage.FileIO.ReadTextAsync(storageFile); 
+await Windows.Storage.FileIO.WriteTextAsync(storageFile,text); 
+
+```
+
+### Launcher (WinRT)
+
+Tags : `#launch`, `#uri`, `#file`, `#scheme`, `#protocol`, `#winrt`
+
+```csharp
+succeed = await Windows.System.Launcher.LaunchFileAsync(storageFile);
+succeed = await Windows.System.Launcher.LaunchUriAsync(uri);
+```
